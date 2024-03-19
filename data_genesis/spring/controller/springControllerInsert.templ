@@ -1,0 +1,6 @@
+public ResponseEntity<[returnType]> insert([controllerMethodParameter]){
+    [classNameMaj] o=new [classNameMaj]();
+    [controllerChangeInstanciation]
+    repo.save(o);
+    return ResponseEntity.ok(o);
+}
